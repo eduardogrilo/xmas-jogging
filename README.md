@@ -12,10 +12,10 @@ Each slice of Bolo Rei has a calorie count c, and Bill has to run a distance to 
 
 Find what is the minimum amout of distance that Bill has to run in order to stay fit.  
 
-** Function signature  **
+**Function signature**
 getMinimumDistance(int[] calories) returns int  
 
-** Examples:  **
+**Examples:**
 calories= {5, 10, 7}  
 Result: 44  
 
@@ -24,6 +24,6 @@ If Bill eats the slices in the order that is shown, he will need to walk:
 This is not the minimum, so in order to minimize the running distance, it is possible to eat the slices in different order.  
 (20 * 10) + (21 * 7) + (22 * 5) = 44  
   
-** Constraints  **
+**Constraints**
 - N is between 1 and 40  
 - C is between 1 and 1000  
