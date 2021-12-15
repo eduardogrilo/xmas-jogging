@@ -12,10 +12,10 @@ Each slice of Bolo Rei has a calorie count c, and Bill has to run a distance to 
 
 Find what is the minimum amout of distance that Bill has to run in order to stay fit.  
 
-**Function signature**
+**Function signature**  
 getMinimumDistance(int[] calories) returns int  
 
-**Examples:**
+**Examples:**  
 calories= {5, 10, 7}  
 Result: 44  
 
