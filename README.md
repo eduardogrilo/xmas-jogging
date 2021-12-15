@@ -20,9 +20,9 @@ calories= {5, 10, 7}
 Result: 44  
 
 If Bill eats the slices in the order that is shown, he will need to walk:  
-(20 * 5) + (21 * 10) + (22 * 7) = 53  
+(2^0 * 5) + (2^1 * 10) + (2^2 * 7) = 53  
 This is not the minimum, so in order to minimize the running distance, it is possible to eat the slices in different order.  
-(20 * 10) + (21 * 7) + (22 * 5) = 44  
+(2^0 * 10) + (2^1 * 7) + (2^2 * 5) = 44  
   
 **Constraints**
 - N is between 1 and 40  
