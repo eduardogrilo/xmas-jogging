@@ -8,7 +8,7 @@ Holidays are here and that means tons of sweets, cakes and delicious meals ahead
 
 So Bill sets a plan to, at least, maintain his weight during the holidays, but at the same time, he wants to be more flexible in his diet, so he can still enjoy his favorite dessert, *Bolo Rei*, during family gatherings. To do so, he has to commit to some extra exercise sessions, the *Bolo Rei Jogging*!  
 
-Each slice of *Bolo Rei* has a calorie count **c** , and Bill has to run a distance to expend those calories. After eating **n** slices of *Bolo Rei*, he must run **2n * c** for each slice.  
+Each slice of *Bolo Rei* has a calorie count **c**, and Bill has to run a distance to expend those calories. After eating **n** slices of *Bolo Rei*, he must run **2n * c** for each slice.  
 
 Find what is the minimum amout of distance that Bill has to run in order to stay fit.  
 
