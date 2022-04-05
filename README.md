@@ -16,7 +16,7 @@ Find what is the minimum amout of distance that Bill has to run in order to stay
 getMinimumDistance(int[] calories) returns int  
 
 **Examples:**  
-calories= {5, 10, 7}  
+calories = {5, 10, 7}  
 Result: 44  
 
 If Bill eats the slices in the order that is shown, he will need to walk:  

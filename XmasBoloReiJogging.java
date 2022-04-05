@@ -1,15 +1,16 @@
 import java.util.Arrays;
+import java.util.Collections;
 
 public class XmasBoloReiJogging {
 
-    public static void reverse(int[] array) {
-        Arrays.sort(array);
+    public static void reverse(Integer[] array) {
+        Arrays.sort(array, Collections.reverseOrder());
     }
 
-    public static long getMinimumDistance(int[] calories) {
+    public static long getMinimumDistance(Integer[] calories) {
 
-        reverse(calories);
         long sum = 0;
+        reverse(calories);
 
         if (calories.length < 1 || calories.length > 40) {
             return -1;
@@ -25,8 +26,10 @@ public class XmasBoloReiJogging {
     }
 
     public static void main(String[] args) {
-        int calories[] = {5, 10, 7};
-        // int calories[] = {56,4};
+        Integer calories[] = new Integer[] { 5, 10, 7 };
+        // Integer calories[] = new Integer[] {56, 45, 1, 565, 23};
+        // Integer calories[] = new Integer[] {};
+        // Integer calories[] = new Integer[] {1001};
         System.out.println(getMinimumDistance(calories));
     }
 }
